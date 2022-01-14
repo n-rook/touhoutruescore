@@ -4,7 +4,8 @@
   "description": "Community replay hosting site and leaderboard",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "fix": "eslint . --fix",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,15 @@
     "url": "https://github.com/n-rook/touhoutruescore/issues"
   },
   "homepage": "https://github.com/n-rook/touhoutruescore#readme",
+  "engines": {
+    "npm": ">=8.3.0",
+    "node": ">=17.3.1"
+  },
   "dependencies": {
     "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-eslint": "^7.0.0"
   }
 }
