@@ -1,0 +1,22 @@
+{
+  "name": "@nrook/touhoutruescore",
+  "version": "0.1.0",
+  "description": "Community replay hosting site and leaderboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-rook/touhoutruescore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n-rook/touhoutruescore/issues"
+  },
+  "homepage": "https://github.com/n-rook/touhoutruescore#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
